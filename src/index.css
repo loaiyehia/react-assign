@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active{
+  background-color: #1abc9c;
+}
+
+.star{
+  position: relative;
+}
+.star::before{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  left: 50px;
+  top: 50%;
+  background-color: white;
+}
+.star::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  right:50px ;
+  top: 50%;
+  background-color: white;
+}
+.star1{
+  position: relative;
+}
+.star1::before{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  left: 50px;
+  top: 50%;
+  background-color: #2C3E50;
+}
+.star1::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  right:50px ;
+  top: 50%;
+  background-color: #2C3E50;
+}
